@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    padding: 5rem 6rem;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 4rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .main {
+        padding: 3rem 2rem;
+    }
+}
+
+.event__card {
+    text-decoration: none !important;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+.card__image_wrapper {
+    height: 250px !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.card__category {
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    z-index: 2;
+    backdrop-filter: blur(1px);
+}
+
+.card__category a {
+    text-decoration: none;
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.card__image_wrapper .card__img {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+.card__content {
+    padding: 1.5rem;
+}
+
+.card__date {
+    color: gray !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card__heading {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.card__heading h4 {
+    font-weight: bold !important;
+    line-height: 110% !important;
+}
+
+.card__location {
+    color: gray !important;
+    font-size: 16px;
+}
+.card__views{
+    color: gray !important;
+    font-size: 20px;
+}
+.card__author_img{
+    border-radius: 500px;
+    height: 40px;
+    width: 40px;
+}
+.card__author_name{
+    text-transform: capitalize;
+    text-decoration: none !important;
+    color: gray !important;
+    font-size: 20px;
+}
